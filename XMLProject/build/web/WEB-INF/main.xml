@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="historyevent.xsl" type="text/xsl"?>
+<LoL>
+	<positions>
+		<name>Support</name>
+		<lane>Bot Lane</lane>
+		<list>
+			<champions>
+				<champion id="1">
+					<name>Alistar</name>
+					<image>alistar.jpg</image>
+					<faction>Valoran</faction>
+					<passive>Trample - After casting a spell, for 3 seconds Alistar ignores unit collision and deals 6 + (1 × Alistar's level) (+ 10% AP) magic damage to nearby enemy units and structures each second. Deals double damage to minions.</passive>
+					<abilities>
+						<ability>Pulverize - ACTIVE: Alistar smashes the ground beneath him, dealing magic damage to nearby enemies and knocking them up for 1 second. Upon landing, they are stunned for 0.5 seconds.</ability>
+						<ability>Headbutt - ACTIVE: Alistar dashes to an enemy, dealing magic damage, stunning it for 1 sec while knocking it back 650-range.</ability>
+						<ability>Triumphant Roar - ACTIVE: Alistar heals himself, with nearby allies healing for half that amount. Triumphant Roar's cooldown is reduced by 2 seconds whenever a nearby enemy unit dies.</ability>
+                                                <ability>Unbreakable Will - ACTIVE: Alistar roars, removing all crowd control effects on himself. For 7 seconds afterwards, he gains bonus attack damage and takes 70% reduced physical and magic damage.</ability>
+						<etc/>
+					</abilities>
+				</champion>
+				<champion id="2">
+					<name>Blitzcrank</name>
+					<image>blitz.png</image>
+					<faction>Valoran</faction>
+					<passive>Mana Barrier - ACTIVE: Alistar roars, removing all crowd control effects on himself. For 7 seconds afterwards, he gains bonus attack damage and takes 70% reduced physical and magic damage.</passive>
+					<abilities>
+						<ability>Rocket Grab - Blitzcrank extends his right hand in a line. The first enemy hit is pulled to his location, takes magic damage and is stunned for 1 second.</ability>
+						<ability>Overdrive - ACTIVE: Blitzcrank super charges himself, gaining increased movement and attack speed for 8 seconds.</ability>
+						<ability>Power Fist - PASSIVE: Every 2.5 seconds, Blitzcrank fires a lightning bolt at a random enemy within 450-range, dealing magic damage. This effect cannot target stealthed enemies.
+PASSIVE MAGIC DAMAGE: 100 / 200 / 300 (+ 20% AP)
+</ability>
+                                                <ability>Static Field - ACTIVE: Blitzcrank detonates his static field, dealing magic damage to nearby enemies within 600-range and silencing them for 0.5 seconds. Static Field's passive damage is disabled while its active is on cooldown.</ability>
+						<etc/>
+					</abilities>
+				</champion>
+			</champions>
+		</list>
+	</positions>
+        <positions>
+		<name>Mage</name>
+		<lane>Mid Lane</lane>
+		<list>
+			<champions>
+				<champion id="1">
+					<name>Azir</name>
+					<image>azir.png</image>
+					<faction>Shurima</faction>
+					<passive>Shurima's Legacy - WILL OF THE EMPEROR: Azir gains 1.25% bonus attack speed for every 1% of his cooldown reduction.
+DISC OF THE SUN: Azir places a marker above the ruins of destroyed turrets (both allied and enemy). Once within 400 units of the ruins, Azir can click on the marker to conjure a Sun Disc, which functions like a standard turret but grants Azir any gold it earns. A Sun Disc's health decays over 1 minute and will lose its armor if Azir dies or moves too far away. Azir cannot conjure Sun Discs within the enemy base.
+</passive>
+					<abilities>
+						<ability>Conquering Sands - ACTIVE: Azir orders all Sand Soldiers to rush toward the target location, dealing magic damage and slowing all enemies they pass through by 25% for 1 second. Enemies can be hit by multiple soldiers, but each soldier beyond the first will deal only 25% damage. The slow stacks additively.</ability>
+                                                <ability>Arise! - ACTIVE: Azir summons an untargetable Sand Soldier for 9 seconds. When Azir attacks an enemy in a soldier's range, the soldier attacks instead of Azir - dealing 50 / 55 / 60 / 65 / 70 / 75 / 80 / 85 / 90 / 95 / 100 / 110 / 120 / 130 / 140 / 150 / 160 / 170 (45 + 5 / 10 at each level) (+ 60% AP) magic damage to all enemies in a line. If multiple soldiers strike the same target, each soldier after the first deals 25% damage, and the soldiers can't attack structures.</ability>
+                                                <ability>Shifting Sands - ACTIVE: Azir dashes to one of his Sand Soldiers, damaging enemies he passes through and knocking them up for 0.5 seconds. If Azir hits an enemy champion, he will stop and gain a shield for 4 seconds.</ability>
+                                                <ability>Emperors Divide - ACTIVE: Azir calls forth a phalanx of shield-wielding soldiers who press forward, knocking back and damaging enemies.</ability>
+					</abilities>
+				</champion>
+			</champions>
+		</list>
+	</positions>
+        <positions>
+		<name>Fighter</name>
+		<lane>Jungle</lane>
+		<list>
+			<champions>
+				<champion id="1">
+					<name>Xin Zhao</name>
+					<image>xin.jpg</image>
+					<faction>Demacia</faction>
+					<passive>Challenge - Basic attacks and Audacious Charge.png Audacious Charge challenge Xin Zhao's target, reducing its armor by 15% for 3 seconds (max one target at any time).</passive>
+					<abilities>
+						<ability>Three Talon Strike - ACTIVE: Xin Zhao's next 3 basic attacks deal bonus physical damage, and reduce his other abilities' cooldowns by 1 second each. The third strike also knocks the target into the air for 1 second.</ability>
+                                                <ability>Battle Cry - PASSIVE: Xin Zhao heals himself on every third basic attack.
+ACTIVE: Xin Zhao increases his attack speed for 5 seconds.
+</ability>
+                                                <ability>Audacious Charge - ACTIVE: Xin Zhao charges at an enemy, dealing magic damage to all enemies within 112.5 range and slowing them for 2 seconds.</ability>
+                                                <ability>Crescent Sweep - ACTIVE: Xin Zhao unleashes a sweep around him, knocking non-Challenge.png Challenged enemies back and dealing physical damage equal to a base amount plus 15% of their current health (capped at 600 against monsters).</ability>
+					</abilities>
+				</champion>
+			</champions>
+		</list>
+	</positions>
+        <positions>
+		<name>Fighter</name>
+		<lane>Top Lane</lane>
+		<list>
+			<champions>
+				<champion id="1">
+					<name>Irelia</name>
+					<image>irelia.jpg</image>
+					<faction>Ionia</faction>
+					<passive>Ionian Fervor - For each nearby enemy champion, Irelia reduces the duration of stuns, slows, taunts, fears, snares, immobilizes, blinds and silences.</passive>
+					<abilities>
+						<ability>Blade Surge - ACTIVE: Irelia dashes forward to strike her target, dealing physical damage and applying on-hit effects. If it kills the target, Bladesurge's cooldown refreshes and refunds 35 mana.</ability>
+                                                <ability>Hiten Style - PASSIVE: Irelia's basic attacks restore health.
+ACTIVE: Irelia's basic attacks deal additional true damage for 6 seconds and Hiten Style's passive on-hit health restore is doubled for the duration.
+</ability>
+                                                <ability>Equilibrium Strike - ACTIVE: Irelia pierces her target, dealing magic damage and slowing the target by 60% for the duration. If the target has a higher health % than Irelia, she stuns the target for the same duration instead.</ability>
+                                                <ability>Transcendent Blades - ACTIVE: Irelia summons 4 spirit blades and fires one in a line towards the cursor, dealing physical damage to enemies it passes through. Irelia is healed for 25% of the damage dealt to champions and 10% of the damage dealt to minions and monsters.</ability>
+					</abilities>
+				</champion>
+			</champions>
+		</list>
+	</positions>
+        <positions>
+		<name>Marksman</name>
+		<lane>Bot Lane</lane>
+		<list>
+			<champions>
+				<champion id="1">
+					<name>Ezreal</name>
+					<image>ez.jpg</image>
+					<faction>Piltover</faction>
+					<passive>Rising Spell Force - INNATE: Hitting a target with any of Ezreal's abilities increases his own attack speed by 10%. This effect lasts for 6 seconds and stacks up to 5 times.</passive>
+					<abilities>
+						<ability>Mystic Shot - ACTIVE: Ezreal fires a bolt of energy in a line that will deal physical damage and apply on-hit effects to the first enemy it hits. If it strikes an enemy unit, all of Ezreal's cooldowns will be reduced by 1 second.</ability>
+                                                <ability>Essence Flux - ACTIVE: Ezreal fires a wave of energy in a line. Any enemy champions it passes through are dealt magic damage, while any allied champions it travels through have their attack speed increased for 5 seconds.</ability>
+                                                <ability>Arcane Shift - ACTIVE: Ezreal instantly teleports to a nearby target location and fires a homing bolt at the nearest enemy unit within 750 range, dealing magic damage to it.</ability>
+                                                <ability>Trueshot Barrage - ACTIVE: After gathering energy for 1 second, Ezreal fires a powerful, broad energy missile that travels in a line across the whole map dealing magic damage to each enemy unit it passes through. It will deal 10% less damage for each subsequent target hit, down to a minimum of 30% damage dealt.</ability>
+					</abilities>
+				</champion>
+			</champions>
+		</list>
+	</positions>
+</LoL>
